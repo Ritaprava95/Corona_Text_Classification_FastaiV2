@@ -1,7 +1,7 @@
 # corona_text_classification_fastaiV2
 Text Classification Using FastAI V2
 
-#creating dev enviroment
+# creating dev enviroment
 
 conda create -n fai_v2 python=3.8 
 
