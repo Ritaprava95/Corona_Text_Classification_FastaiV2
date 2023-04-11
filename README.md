@@ -2,14 +2,14 @@
 Text Classification Using FastAI V2
 
 # creating dev enviroment
+conda create -n fai_v2 python=3.8</br>
+conda activate fai_v2</br>
+conda install -c fastai -c pytorch fastai</br>
+conda install jupyter</br>
 
-conda create -n fai_v2 python=3.8 
-
-conda activate fai_v2
-
-conda install -c pytorch fastai
-
-conda install jupyter
+## additional steps necessary for fastai2 text (this was nor required earlier but fastai did some changes on theie code so we have to do this in order to avoid errors)
+pip install transformers</br>
+pip install spacy-alignments
 
 
 # Key points to be noted
